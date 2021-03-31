@@ -6,6 +6,10 @@
 // $link-hover-color: grey;
 // $font-family-sans-serif: "Helvetica Neue";
 
+.jumbotron {
+  background:url("img/pirate-photos/pirate-ship.jpg") no-repeat center cover;
+}
+
 // Import Bootstrap styles
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
