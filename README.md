@@ -1,8 +1,12 @@
-# ICJ Bootstrap Template
+# ICJ Bootstrap practice assignment
+
+This is for the ICJ Bootstrap practice assignment due on April 2nd, 2021.
+
+## ICJ Bootstrap Template
 
 This template goes along with the [Bootstrap lessons](https://github.com/utdata/icj-class#bootstrap) for Intro to Coding for Journalists.
 
-## How to set up your project
+### How to set up your project
 
 - Create a new folder in your `icj/` folder called `yourname-bootstrap`.
 - In VS Code, open a new window and open your new folder.
@@ -16,11 +20,11 @@ This template goes along with the [Bootstrap lessons](https://github.com/utdata/
 - Use the `git add` command provided there to sync the repos.
 - Run `$ git push origin master` to push the code to Github.
 
-## How to run the project
+### How to run the project
 
 - Run `$ gulp dev` to compile all the code and start a server.
 - If you just want to compile code without running a server, run `gulp` by itself.
 
-## Edit in the src folder
+### Edit in the src folder
 
 All edits to HTML, SCSS or images should be done in the `src` folder. DO NOT edit files in the `docs` folder, or you will lose the changes when gulp tasks run.
