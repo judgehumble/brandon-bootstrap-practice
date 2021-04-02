@@ -5,10 +5,35 @@
 // $body-color: white;
 // $link-hover-color: grey;
 // $font-family-sans-serif: "Helvetica Neue";
+.nav-item{
+  a:hover{
+    text-decoration: underline;
+  }
+}
+
 
 .jumbotron {
-  background:url("img/pirate-photos/pirate-ship.jpg") no-repeat center cover;
+  background: url("../img/pirate-photos/pirate-ship.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #ffffff;
+  font-family: 'Oregano', cursive;
 }
+
+.introduction{
+  font-family: 'Oregano', cursive;
+}
+
+.footer{
+  font-size: .75rem;
+  color:#ffffff;
+  background-color: #a3a3a3;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 3px;
+}
+
 
 // Import Bootstrap styles
 @import "../../node_modules/bootstrap/scss/bootstrap";
